@@ -19,12 +19,13 @@ while x < 100:
             print(x)
     x = x+1'''
 
-def isprime(num):
-        for i in range(2, num):
-            if (num % i) == 0:
-                return False
-            else:
-                return True
+def isprime(number):
+    if number == 1:
+        return False
+    for factor in range(2, number):
+        if number % factor == 0:
+            return False
+    return True
 
 def f(n):
     return 1 + (2 ** (2 ** n))
