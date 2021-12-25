@@ -4,7 +4,7 @@ A regular prime-sided polygon cannot be constructed with only a straightedge and
 
 A fermat-number-sided polygon is prime-sided and constructible at the same time, Fermat numbers have the following form:
 
-![F(n)=2^2^n+1](https://quicklatex.com/cache3/0e/ql_b9fa837c660ac640d6518eaa5598220e_l3.png)
+![F(n)=2^2^n+1](https://quicklatex.com/cache3/14/ql_9c7a3f5523575766392a63bb7dc95814_l3.png)
 
 The program should print out the fermat numbers.
 
