@@ -1,30 +1,5 @@
-'''def isprime(num):
-    for i in range(2, num):
-        if (num % i) == 0:
-            return False
-        else:
-            return True
-
-def constructible(x):
-    for i in range(0,10000):
-        if x == (2^(2^i))+1:
-            return True
-    return False
-
-x = 5
-
-while x < 100: 
-    if isprime(x):
-        if constructible(x):
-            print(x)
-    x = x+1'''
-
-def isprime(num):
-        for i in range(2, num):
-            if (num % i) == 0:
-                return False
-            else:
-                return True
+def p(x):
+    return [i for i in range(1,x)if x%i==0]==[1]
 
 def f(n):
     return 1 + (2 ** (2 ** n))
